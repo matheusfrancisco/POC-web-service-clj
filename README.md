@@ -11,6 +11,10 @@ Simple server using Ring and Pedestal.io to see the  folder
 simple structuring, how write test to htto server using pedestal,
 how run server im repl and prod mode.
 
+[catalog](./project-catalog)
+This project is a simple implementation to use Pedestal and check
+how works.
+
 
 
 
