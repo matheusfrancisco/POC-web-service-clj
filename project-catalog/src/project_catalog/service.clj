@@ -126,18 +126,9 @@
               ["/projects-memory" :get (conj common-interceptors `get-projects-memory)]
               ["/projects-memory" :post (conj common-interceptors `add-project-memory)]
               ["/projects-memory/:project-name" :get (conj common-interceptors `get-project-memory)]
-<<<<<<< HEAD
-<<<<<<< HEAD
-              ["/see-also1" :get (conj common-interceptors `git-get)]
-              ["/see-also3" :get (conj common-interceptors `git-get)]
-=======
-=======
               ["/projects-memory1/:project-name" :get (conj common-interceptors `get-project-memory)]
               ["/projects-memory2/:project-name" :get (conj common-interceptors `get-project-memory)]
               ["/projects-memory3/:project-name" :get (conj common-interceptors `get-project-memory)]
->>>>>>> 018332f (new routes)
-              ["/see-also" :get (conj common-interceptors `git-get)]
->>>>>>> 9f528ab (fix)
               ["/projects" :get (conj common-interceptors `get-projects)]
               ["/projects" :post (conj common-interceptors `add-project)]
               ["/projects/:proj-name" :get (conj common-interceptors `get-project)]
