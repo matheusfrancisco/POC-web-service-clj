@@ -126,6 +126,7 @@
               ["/projects-memory" :get (conj common-interceptors `get-projects-memory)]
               ["/projects-memory" :post (conj common-interceptors `add-project-memory)]
               ["/projects-memory/:project-name" :get (conj common-interceptors `get-project-memory)]
+              ["/see-also1" :get (conj common-interceptors `git-get)]
               ["/see-also3" :get (conj common-interceptors `git-get)]
               ["/projects" :get (conj common-interceptors `get-projects)]
               ["/projects" :post (conj common-interceptors `add-project)]
